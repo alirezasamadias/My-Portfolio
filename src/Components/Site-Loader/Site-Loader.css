@@ -1,0 +1,45 @@
+/* Animations */
+@keyframes loader {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+/* Styles */
+.site-loader {
+    background-color: var(--secondary-color);
+    position: fixed;
+    inset: 0;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+    transition: opacity 0.5s , visibility 0.5s;
+}
+
+.loader {
+    color: #fff;
+    text-transform: uppercase;
+    font: 5vw 'Simply-Rounded-bold';
+    position: relative;
+}
+
+.loader::after {
+    content: 'loading...';
+    overflow: hidden;
+    position: absolute;
+    inset: 0;
+    color: var(--primary-color);
+    animation: loader 0.8s forwards;
+}
+
+.hide {
+    opacity: 0;
+    visibility: hidden;
+}

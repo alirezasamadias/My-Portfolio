@@ -1,0 +1,36 @@
+/* Animations */
+@keyframes show-star {
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Styles */
+.hero .container {
+    width: min(100%,1000px);
+    padding: 7vw 30px 5vw;
+    flex-direction: column;
+    row-gap: 3vw;
+    position: relative;
+}
+
+.hero .container::after,
+.hero .container::before {
+    content: '';
+    padding: 2.5vw;
+    background: url(../../assets/Images/Star.svg) no-repeat center center;
+    background-size: cover;
+    transform: scale(1);
+    animation: show-star 0.5s 1s forwards;
+    position: absolute;
+}
+
+.hero .container::after {
+    top: 10%;
+    right: 5%;
+}
+
+.hero .container::before {
+    bottom: 10%;
+    left: 5%;
+}

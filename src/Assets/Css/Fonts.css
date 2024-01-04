@@ -1,0 +1,21 @@
+/* Simply-Rounded bold */
+@font-face {
+    font-family: 'Simply-Rounded-bold';
+    src:
+        url('../Fonts/Simply-Rounded/Simply-Rounded-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../Fonts/Simply-Rounded/Simply-Rounded-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: block;
+}
+
+/* Simply-Rounded normal */
+@font-face {
+    font-family: 'Simply-Rounded-normal';
+    src:
+        url('../Fonts/Simply-Rounded/Simply-Rounded.eot?#iefix') format('embedded-opentype'),
+        url('../Fonts/Simply-Rounded/Simply-Rounded.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}

@@ -1,0 +1,46 @@
+.contact > .container {
+    width: max-content;
+    flex-direction: column;
+}
+
+.contact .social-media {
+    width: 100%;
+}
+
+.contact :where(.social-icon,.social-id) {
+    background-color: var(--secondary-color);
+}
+
+.contact .social-icon {
+    padding: 11px;
+    margin-right: 15px;
+    border-radius: 50px;
+    font-size: 24px;
+}
+
+.contact .social-id {
+    flex-grow: 1;
+    padding: 5px 15px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 22px;
+    color: var(--primary-color);
+    transition-duration: 0.3s;
+}
+
+.social-id:hover {
+    transform: scale(1.04);
+}
+
+/* Responsive */
+@media (max-width:600px) {
+    .contact .social-icon {
+        margin-right: 5px;
+        padding: 8px;
+        font-size: 18px;
+    }
+
+    .contact .social-id {
+        font-size: 13px;
+    }
+}

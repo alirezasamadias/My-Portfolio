@@ -1,0 +1,32 @@
+article .container {
+    width: min(90%,1200px);
+    column-gap: 7%;
+}
+
+.profile {
+    align-self: stretch;
+    width: 40%;
+    height: auto;
+    max-width: 380px;
+    border-radius: 500px 500px 0 0;
+}
+
+.caption {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+/* Responsive */
+@media (max-width:768px) {
+    article .container {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .profile {
+        align-self: center;
+        width: 100%;
+        border-radius: 50px 50px 0 0;
+    }
+}

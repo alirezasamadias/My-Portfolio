@@ -1,0 +1,25 @@
+.scroll-up {
+    cursor: pointer;
+    padding: 8px;
+    background-color: #025a4e94;
+    backdrop-filter: blur(20px) saturate(1.7);
+    border-radius: 10px;
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    z-index: 99;
+    font-size: 32px;
+    color: #fff;
+    transition-duration: 0.25s;
+}
+
+.scroll-up:hover {
+    background-color: var(--primary-color);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .scroll-up {
+        transform: scale(0.8);
+    }
+}

@@ -1,0 +1,14 @@
+.social-media {
+    padding: 10px;
+    font-size: 30px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.social-icon {
+    transition-duration: 0.3s;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+}

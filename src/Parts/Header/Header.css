@@ -1,0 +1,48 @@
+.header {
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    text-align: center;
+    transition-duration: 0.25s;
+}
+
+/* menu */
+.menu {
+    padding: 7px;
+    background-color: #ffffffc0;
+    backdrop-filter: blur(20px) saturate(1.7);
+    border-radius: 50px;
+    display: inline-flex;
+    justify-content: center;
+    gap: 1vw;
+    transition-duration: 0.25s;
+}
+
+.menu-item-link {
+    min-width: 150px;
+    padding: 10px;
+    border-radius: 50px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition-duration: 0.25s;
+}
+
+.menu-item-link:hover,
+.current-page {
+    background-color: var(--secondary-color);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .header {
+        padding: 15px 0;
+    }
+
+    .menu-item-link {
+        min-width: 90px;
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,15 @@
+.footer {
+    background-image: linear-gradient(to bottom , transparent , #aee4de);
+    color: var(--primary-color);
+}
+
+.footer .container {
+    padding: 20px 30px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .footer .container {
+        flex-direction: column-reverse;
+    }
+}
