@@ -168,6 +168,10 @@ figcaption::first-letter {
     p {
         line-height: 1.9;
     }
+
+    .container {
+        padding: 15% 5%;
+    }
 }
 
 @media (max-width:600px) {
