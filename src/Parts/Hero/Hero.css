@@ -7,15 +7,24 @@
 
 /* Styles */
 .hero .container {
-    width: min(100%,1000px);
+    width: min(90%,1000px);
+    min-height: 30vw;
     padding: 10vw 30px 5vw;
     flex-direction: column;
     row-gap: 3vw;
+}
+
+.hero p {
+    text-align: center;
+    line-height: 1.4;
+}
+
+.hero .title-lg {
     position: relative;
 }
 
-.hero .container::after,
-.hero .container::before {
+.hero .title-lg::after,
+.hero .title-lg::before {
     content: '';
     padding: 2.5vw;
     background: url(../../assets/Images/Star.svg) no-repeat center center;
@@ -26,12 +35,12 @@
     position: absolute;
 }
 
-.hero .container::after {
-    top: 10%;
-    right: 5%;
+.hero .title-lg::after {
+    bottom: 115%;
+    left: calc(100% + 4vw);
 }
 
-.hero .container::before {
-    bottom: 10%;
-    left: 3%;
+.hero .title-lg::before {
+    top: 115%;
+    right: calc(100% + 5vw);
 }

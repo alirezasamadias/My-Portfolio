@@ -36,11 +36,11 @@
 @media (max-width:600px) {
     .contact .social-icon {
         margin-right: 5px;
-        padding: 8px;
-        font-size: 18px;
+        padding: 10px;
+        font-size: 20px;
     }
 
     .contact .social-id {
-        font-size: 13px;
+        font-size: 4vw;
     }
 }
