@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 // Components
-import SiteLoader from "./Components/Site-Loader/Site-Loader";
+import SiteLoader from "./Components/Loader/Loader";
 import Header from "./Parts/Header/Header";
 import About from './Pages/About/About';
 import Contact from './Pages/Contact/Contact';

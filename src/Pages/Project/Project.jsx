@@ -11,7 +11,7 @@ import CryptoTest from '../../assets/Images/Crypto-Test.png';
 import Gallery from '../../assets/Images/Gallery.png';
 import GalleryTest from '../../assets/Images/Gallery-Test.png';
 // Components
-import SiteLoader from '../../Components/Site-Loader/Site-Loader';
+import Loader from '../../Components/Loader/Loader';
 import Hero from '../../Parts/Hero/Hero';
 // Hooks
 import useTabTitle from '../../Hooks/useTabTitle';
@@ -102,7 +102,7 @@ function Project() {
 
     return (
     <>
-        <SiteLoader/>
+        <Loader/>
         <main className='main project'>
             <Hero title={<>hi.i'm alireza.<br/>a developer</>}>
                 <p>thank you for looking at my projects.</p>

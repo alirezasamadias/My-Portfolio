@@ -1,7 +1,7 @@
 // Images
 import Profile from '../../assets/Images/Profile.jpg';
 // Components
-import SiteLoader from '../../Components/Site-Loader/Site-Loader';
+import Loader from '../../Components/Loader/Loader';
 import Hero from '../../Parts/Hero/Hero';
 // Hooks
 import useTabTitle from '../../Hooks/useTabTitle';
@@ -17,7 +17,7 @@ function About() {
 
     return (
     <>
-        <SiteLoader/>
+        <Loader/>
         <main className='main about'>
             <Hero title='about me'/>
 

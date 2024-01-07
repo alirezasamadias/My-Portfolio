@@ -1,5 +1,5 @@
 // Components
-import SiteLoader from "../../Components/Site-Loader/Site-Loader";
+import Loader from "../../Components/Loader/Loader";
 import Hero from '../../Parts/Hero/Hero';
 import SocialMedia from '../../Components/Social-Media/Social-Media';
 // Hooks
@@ -16,7 +16,7 @@ function Contact() {
     
     return (
     <>
-        <SiteLoader/>
+        <Loader/>
         <main className='main contact'>
             <Hero title='contact me'/>
 

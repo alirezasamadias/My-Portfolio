@@ -1,8 +1,8 @@
 import { useState } from 'react';
 // Css
-import './Site-Loader.css';
+import './Loader.css';
 
-function SiteLoader() {
+function Loader() {
   const [load, setLoad] = useState();
 
   setTimeout(() => {
@@ -10,7 +10,7 @@ function SiteLoader() {
   }, 600);
 
   return (
-    <div className={`site-loader ${(load ? 'hide' : '')}`}>
+    <div className={`Loader ${(load ? 'hide' : '')}`}>
       <div className="loader">
         <span>loading...</span>
       </div>
@@ -18,4 +18,4 @@ function SiteLoader() {
   );
 }
 
-export default SiteLoader;
+export default Loader;

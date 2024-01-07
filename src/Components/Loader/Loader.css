@@ -10,7 +10,7 @@
 }
 
 /* Styles */
-.site-loader {
+.Loader {
     background-color: var(--secondary-color);
     position: fixed;
     inset: 0;
