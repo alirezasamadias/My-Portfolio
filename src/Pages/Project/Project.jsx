@@ -10,6 +10,8 @@ import Crypto from '../../assets/Images/Crypto.png';
 import CryptoTest from '../../assets/Images/Crypto-Test.png';
 import Gallery from '../../assets/Images/Gallery.png';
 import GalleryTest from '../../assets/Images/Gallery-Test.png';
+import RestApiVue from '../../assets/Images/Rest-Api-Vue.png';
+// import RestApiVueTest from '../../assets/Images/Rest-Api-Vue-Test.png';
 // Components
 import Loader from '../../Components/Loader/Loader';
 import Hero from '../../Parts/Hero/Hero';
@@ -91,6 +93,18 @@ const data = [
         description: 'A small project with React and using axios to get data This project is a cryptocurrency search panel and also has a brief login form.',
         link: 'https://crypto-7nfe.onrender.com/',
         github: 'https://github.com/alirezasamadias/Crypto.git/'
+    },
+
+    {
+        id: 7,
+        type: 'mini-project',
+        projectName: 'rest-api (vue)',
+        categories: ['html5','css3','vue'],
+        image: RestApiVue,
+        // test: RestApiVueTest,
+        description: 'A small project with Vue and using axios to get data This project.',
+        // link: 'https://crypto-7nfe.onrender.com/',
+        github: 'https://github.com/alirezasamadias/Rest-Api-vue.git/'
     }
 ]; 
 
