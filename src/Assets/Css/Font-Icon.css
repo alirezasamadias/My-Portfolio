@@ -63,6 +63,10 @@
   content: "\e901";
   color: #61dafb;
 }
+.icon-vue:before {
+  content: "\e90e";
+  color: #4fc08d;
+}
 .icon-link:before {
   content: "\e9cc";
 }
