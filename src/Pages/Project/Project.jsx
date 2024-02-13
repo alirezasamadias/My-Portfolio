@@ -11,7 +11,7 @@ import CryptoTest from '../../assets/Images/Crypto-Test.png';
 import Gallery from '../../assets/Images/Gallery.png';
 import GalleryTest from '../../assets/Images/Gallery-Test.png';
 import RestApiVue from '../../assets/Images/Rest-Api-Vue.png';
-// import RestApiVueTest from '../../assets/Images/Rest-Api-Vue-Test.png';
+import RestApiVueTest from '../../assets/Images/Rest-Api-Vue-Test.png';
 // Components
 import Loader from '../../Components/Loader/Loader';
 import Hero from '../../Parts/Hero/Hero';
@@ -101,9 +101,9 @@ const data = [
         projectName: 'rest-api (vue)',
         categories: ['html5','css3','vue'],
         image: RestApiVue,
-        // test: RestApiVueTest,
+        test: RestApiVueTest,
         description: 'A small project with Vue and using axios to get data This project.',
-        // link: 'https://crypto-7nfe.onrender.com/',
+        link: 'https://rest-api-vue.netlify.app/',
         github: 'https://github.com/alirezasamadias/Rest-Api-vue.git/'
     }
 ]; 
