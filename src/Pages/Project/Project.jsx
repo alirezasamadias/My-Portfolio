@@ -31,7 +31,7 @@ const data = [
         image: Portfolio,
         test: PortfolioTest,
         description: 'This is the first project that I presented at the end of my training course. A one-page website has an interesting banner that attracts the audience and then uses a small gallery to display the portfolio and then gives a description about the person. Finally, you can contact the owner of the portfolio using a form that also has a social network. No other libraries or packages were used to create this website. It was originally a WordPress theme that I customized.',
-        link: 'https://portfolio-yr54.onrender.com/',
+        link: 'https://portfoliojs2023.netlify.app/',
         github: 'https://github.com/alirezasamadias/Portfolio.git/'
     },
 
@@ -43,7 +43,7 @@ const data = [
         image: Restaurant,
         test: RestaurantTest,
         description: 'this single-page website has an animated banner and that a modal to display the menu; Most of the site is about the restaurant menu and finally a section for contacting the restaurant and booking. No other libraries or packages were used to create this website. It was originally a WordPress theme that I customized.',
-        link: 'https://restaurant-8vf5.onrender.com/',
+        link: 'https://restaurentjs2023.netlify.app/',
         github: 'https://github.com/alirezasamadias/Enfoled-Restaurent.git/'
     },
     
@@ -55,7 +55,7 @@ const data = [
         image: Construction,
         test: ConstructionTest,
         description: 'this project multi-page website with various section which is about a company active in the construction. No other library or package was used to create this website. No other libraries or packages were used to create this website. It was originally a WordPress theme that I customized.',
-        link: 'https://construction-4eay.onrender.com/',
+        link: 'https://constructionjs2023.netlify.app/',
         github: 'https://github.com/alirezasamadias/Construction.git/'
     },
 
@@ -67,7 +67,7 @@ const data = [
         image: Construction,
         test: ConstructionReactTest,
         description: 'this project multi-page website with various section which is about a company active in the construction. No other library or package was used to create this website. initially, a wordpress template was prepared, byt I customized. (The only difference is the use of React.js)',
-        link: 'https://construction-react.onrender.com/',
+        link: 'https://constructionreact2023.netlify.app/',
         github: 'https://github.com/alirezasamadias/Construction-React.git/'
     },
 
@@ -79,7 +79,7 @@ const data = [
         image: Gallery,
         test: GalleryTest,
         description: 'a mini project with javascript a bit of design',
-        link: 'https://gallery-zyvr.onrender.com/',
+        link: 'https://galleryjs2023.netlify.app/',
         github: 'https://github.com/alirezasamadias/Gallery.git/'
     },
 
@@ -91,7 +91,7 @@ const data = [
         image: Crypto,
         test: CryptoTest,
         description: 'A small project with React and using axios to get data This project is a cryptocurrency search panel and also has a brief login form.',
-        link: 'https://crypto-7nfe.onrender.com/',
+        link: 'https://cryptoreact2023.netlify.app/',
         github: 'https://github.com/alirezasamadias/Crypto.git/'
     },
 
@@ -103,10 +103,10 @@ const data = [
         image: RestApiVue,
         test: RestApiVueTest,
         description: 'A small project with Vue and using axios to get data This project.',
-        link: 'https://rest-api-vue.netlify.app/',
+        link: 'https://restapivue2024.netlify.app/',
         github: 'https://github.com/alirezasamadias/Rest-Api-vue.git/'
     }
-]; 
+];
 
 function Project() {
     // title
