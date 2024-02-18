@@ -11,7 +11,7 @@ function Loader() {
 
   return (
     <div className={`Loader ${(load ? 'hide' : '')}`}>
-      <div className="loader">
+      <div className='loader'>
         <span>loading...</span>
       </div>
     </div>

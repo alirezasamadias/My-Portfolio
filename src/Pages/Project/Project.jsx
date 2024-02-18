@@ -122,7 +122,7 @@ function Project() {
                 <p>thank you for looking at my projects.</p>
             </Hero>
 
-            <div className="container">
+            <div className='container'>
                 <div className='project-items'>
                     {data.filter(item => item.type === 'project').map(item => {
                         const {id,projectName,image,test,categories,link,description,github} = item;

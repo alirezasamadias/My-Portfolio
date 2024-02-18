@@ -22,7 +22,7 @@ function About() {
             <Hero title='about me'/>
 
             <article>
-                <figure className="container">
+                <figure className='container'>
                     <img src={Profile} alt={Profile} className='profile'/>
                     <figcaption className='caption'>
                         <h2 className='title-md'>Hello, I am Alireza, I am 22 years old and it has been a year since I got acquainted with the world of programming.</h2>
