@@ -7,7 +7,7 @@ function useTabTitle(pageName) {
         setTitle(`${pageName} - ${title}`);
     },[]);
 
-    window.document.title = title;
+    document.title = title;
 }
 
 export default useTabTitle;
