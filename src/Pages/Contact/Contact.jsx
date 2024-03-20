@@ -22,11 +22,11 @@ function Contact() {
 
             <nav className='social-box container'>
                 <SocialMedia url='https://github.com/alirezasamadias/' icon='icon-github' link='alirezasamadias'/>
-                <SocialMedia url='https://www.linkedin.com/in/alireza-samadi-as/' icon='icon-linkedin' link='alireza samadi'/>
+                <SocialMedia url='https://www.linkedin.com/in/alireza-samadi-as/' icon='icon-linkedin' link='alireza-samadi-as'/>
                 <SocialMedia url='https://wa.me/+989104657178' icon='icon-whatsapp' link='09104657178'/>
                 <SocialMedia url='https://t.me/Alirezasa_as/' icon='icon-telegram' link='@Alirezasa_as'/>
                 <SocialMedia url='tel:+989104657178' icon='icon-phone' link='09104657178'/>
-                <SocialMedia url='mailto:alireza.samadi.as.as@gmail.com/' icon='icon-gmail' link='alireza.samadi.as.as@gmail.com'/>
+                <SocialMedia url='mailto:alireza.samadi.as.as@gmail.com/' icon='icon-gmail' link='alireza.samadi.as.as'/>
             </nav>
         </main>
     </>

@@ -73,6 +73,9 @@
 .icon-unlink:before {
   content: "\f128";
 }
+.icon-download:before {
+  content: "\e90e";
+}
 .icon-sun:before {
   content: "\e90b";
 }
@@ -98,7 +101,7 @@
   color: #444;
 }
 .icon-linkedin:before {
-  content: "\eac9";
+  content: "\eacb";
   color: #0077B5;
 }
 .icon-gmail:before {
