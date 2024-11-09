@@ -16,10 +16,6 @@
     transition-duration: 0.3s;
 }
 
-.footer .social-icon:hover {
-    transform: scale(1.15);
-}
-
 /* tooltip */
 .tooltip {
     position: relative;

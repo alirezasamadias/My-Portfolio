@@ -6,41 +6,45 @@
 }
 
 /* Styles */
+.hero {
+    height: 52vh;
+    max-height: 48vw;
+    padding-top: 15px;
+}
+
 .hero .container {
-    width: min(90%,1000px);
-    min-height: 30vw;
-    padding: 10vw 30px 5vw;
+    max-width: 1200px;
     flex-direction: column;
-    row-gap: 3vw;
-}
-
-.hero p {
-    text-align: center;
-    line-height: 1.4;
-}
-
-.hero .title-lg {
+    justify-content: center;
+    row-gap: clamp(15px,2vw,30px);
     position: relative;
 }
 
-.hero .title-lg::after,
-.hero .title-lg::before {
+.hero .container::after,
+.hero .container::before {
     content: '';
     padding: 2.5vw;
     background: url(../../assets/Images/Star.svg) no-repeat center center;
     background-size: cover;
-    filter: drop-shadow(4px 4px 3px #00000055);
     transform: scale(0);
     animation: show-star 0.5s 1.3s forwards;
     position: absolute;
 }
 
-.hero .title-lg::after {
-    bottom: 115%;
-    left: calc(100% + 4vw);
+.hero .container::after {
+    top: 15%;
+    right: 10%;
+    filter: drop-shadow(4px -4px 3px #00000055);
 }
 
-.hero .title-lg::before {
-    top: 115%;
-    right: calc(100% + 5vw);
+.hero .container::before {
+    bottom: 15%;
+    left: 10%;
+    filter: drop-shadow(-4px 4px 3px #00000055);
+}
+
+.hero p {
+    max-width: 300px;
+    text-align: center;
+    line-height: 1.4;
 }

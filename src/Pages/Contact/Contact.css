@@ -36,7 +36,6 @@
 /* Responsive */
 @media (max-width:600px) {
     .contact .social-icon {
-        margin-right: 5px;
         padding: 10px;
         font-size: 20px;
     }

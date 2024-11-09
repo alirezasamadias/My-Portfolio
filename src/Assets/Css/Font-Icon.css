@@ -23,64 +23,62 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-menu:before {
-  content: "\e905";
+.icon-sun:before {
+  content: "\e90f";
 }
-.icon-close:before {
-  content: "\e906";
+.icon-vue:before {
+  content: "\e900";
+  color: #4fc08d;
 }
-.icon-up:before {
-  content: "\e90a";
+.icon-sass:before {
+  content: "\e901";
+  color: #c69;
 }
-.icon-down:before {
-  content: "\e907";
+.icon-react:before {
+  content: "\e902";
+  color: #61dafb;
+}
+.icon-javascript:before {
+  content: "\e903";
+  color: #f7df1e;
 }
 .icon-html5:before {
-  content: "\e903";
+  content: "\e904";
   color: #e34f26;
 }
 .icon-css3:before {
-  content: "\e904";
+  content: "\e905";
   color: #1572b6;
 }
-.icon-bootstrap:before {
+.icon-menu:before {
+  content: "\e906";
+}
+.icon-close:before {
+  content: "\e907";
+}
+.icon-down:before {
   content: "\e908";
+}
+.icon-bootstrap:before {
+  content: "\e909";
   color: #563d7c;
 }
-.icon-sass:before {
-  content: "\e900";
-  color: #c69;
-}
-.icon-javascript:before {
-  content: "\e902";
-  color: #f7df1e;
-}
 .icon-jquery:before {
-  content: "\e909";
+  content: "\e90a";
   color: #0769ad;
 }
-.icon-react:before {
-  content: "\e901";
-  color: #61dafb;
-}
-.icon-vue:before {
-  content: "\e90e";
-  color: #4fc08d;
-}
-.icon-link:before {
-  content: "\e9cc";
-}
-.icon-unlink:before {
-  content: "\f128";
-}
-.icon-download:before {
-  content: "\e90e";
-}
-.icon-sun:before {
+.icon-up:before {
   content: "\e90b";
 }
 .icon-moon:before {
   content: "\e90c";
+}
+.icon-gmail:before {
+  content: "\e90d";
+  color: #d14836;
+}
+.icon-download:before {
+  content: "\e90e";
 }
 .icon-phone:before {
   content: "\e942";
@@ -88,13 +86,16 @@
 .icon-email:before {
   content: "\e945";
 }
+.icon-link:before {
+  content: "\e9cc";
+}
 .icon-whatsapp:before {
   content: "\ea93";
   color: #25D366;
 }
 .icon-telegram:before {
   content: "\ea95";
-  color: #24A1DE;
+  color: #61dafb;
 }
 .icon-github:before {
   content: "\eab0";
@@ -104,7 +105,6 @@
   content: "\eacb";
   color: #0077B5;
 }
-.icon-gmail:before {
-  content: "\e90d";
-  color: #d14836;
+.icon-unlink:before {
+  content: "\f128";
 }

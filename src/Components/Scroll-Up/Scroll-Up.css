@@ -1,7 +1,7 @@
 .scroll-up {
     cursor: pointer;
     padding: 8px;
-    background-color: #025a4e94;
+    background-color: #025a4ece;
     backdrop-filter: blur(20px) saturate(1.7);
     border-radius: 10px;
     position: fixed;

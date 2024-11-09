@@ -119,7 +119,7 @@ function Project() {
         <Loader/>
         <main className='main project'>
             <Hero title={<>hi.i'm alireza.<br/>a developer</>}>
-                <p>thank you for looking at my projects.</p>
+                <p>Here, you'll find a collection of my work, showcasing my skills and creativity</p>
             </Hero>
 
             <div className='container'>
