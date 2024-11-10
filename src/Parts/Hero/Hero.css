@@ -9,7 +9,7 @@
 .hero {
     height: 52vh;
     max-height: 48vw;
-    padding-top: 15px;
+    margin: 30px 0 5vw;
 }
 
 .hero .container {
@@ -23,7 +23,7 @@
 .hero .container::after,
 .hero .container::before {
     content: '';
-    padding: 2.5vw;
+    padding: 2vw;
     background: url(../../Assets/Images/Star.svg) no-repeat center center;
     background-size: cover;
     transform: scale(0);
@@ -32,13 +32,13 @@
 }
 
 .hero .container::after {
-    top: 15%;
+    top: 10%;
     right: 10%;
     filter: drop-shadow(4px -4px 3px #00000055);
 }
 
 .hero .container::before {
-    bottom: 15%;
+    bottom: 10%;
     left: 10%;
     filter: drop-shadow(-4px 4px 3px #00000055);
 }
