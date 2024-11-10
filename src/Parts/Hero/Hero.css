@@ -24,7 +24,7 @@
 .hero .container::before {
     content: '';
     padding: 2.5vw;
-    background: url(../../assets/Images/Star.svg) no-repeat center center;
+    background: url(../../Assets/Images/Star.svg) no-repeat center center;
     background-size: cover;
     transform: scale(0);
     animation: show-star 0.5s 1.3s forwards;

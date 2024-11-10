@@ -1,5 +1,5 @@
 // Images
-import Profile from '../../assets/Images/Profile.jpg';
+import Profile from '../../Assets/Images/Profile.jpg';
 // Documents
 import cv from '../../Assets/Documents/Alireza-Samadi.pdf';
 // Components
