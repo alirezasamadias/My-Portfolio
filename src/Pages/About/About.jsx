@@ -9,7 +9,7 @@ import Hero from '../../Parts/Hero/Hero';
 import useTabTitle from '../../Hooks/useTabTitle';
 import useCurrentPage from '../../Hooks/useCurrentPage';
 // Css
-import './about.css';
+import './About.css';
 
 function About() {
     // title
